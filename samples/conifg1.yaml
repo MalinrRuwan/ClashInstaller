@@ -3,7 +3,7 @@ proxies:
   server: 0.0.0.0     #ipaddress or domain
   port: 443
   type: trojan
-  password: "1ff62eb3-40fb-43da-a0dd-8720d9d44cdd"    #uuid
+  password: ""    #uuid
   sni:                    #bughost
   skip-cert-verify: true
   udp: true
@@ -23,7 +23,7 @@ allow-lan: false
 bind-address: "*"
 ipv6: false
 external-controller: 127.0.0.1:9090
-external-ui: /root/clash/web-ui/public
+external-ui: /etc/clash/web-ui/public
 tun:
   enable: true
   stack: gvisor
