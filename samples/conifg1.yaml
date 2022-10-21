@@ -1,5 +1,5 @@
 proxies:
-- name: TROJAN 1(twitter)
+- name: TROJAN 1(twitter)  # name you want
   server: 0.0.0.0     #ipaddress or domain
   port: 443
   type: trojan
